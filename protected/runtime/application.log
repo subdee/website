@@ -1,0 +1,439 @@
+2013/05/24 13:00:22 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.0" is not defined.' in /var/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /var/yii/framework/YiiBase.php(222): CComponent->__set('0', '')
+#1 /var/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /var/yii/framework/base/CApplication.php(503): CModule->getComponent('urlManager')
+#3 /var/yii/framework/web/CWebApplication.php(141): CApplication->getUrlManager()
+#4 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /var/www/subdee/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/subdee/
+---
+2013/05/24 13:05:25 [error] [php] include(CMenu.php): failed to open stream: No such file or directory (/var/yii/framework/YiiBase.php:423)
+Stack trace:
+#0 /var/yii/framework/web/CWidgetFactory.php(147): import()
+#1 /var/yii/framework/web/CBaseController.php(147): CWidgetFactory->createWidget()
+#2 /var/yii/framework/web/CBaseController.php(173): SiteController->createWidget()
+#3 /var/www/subdee/protected/views/layouts/main.php(22): SiteController->widget()
+#4 /var/yii/framework/web/CBaseController.php(127): require()
+#5 /var/yii/framework/web/CBaseController.php(96): SiteController->renderInternal()
+#6 /var/yii/framework/web/CController.php(785): SiteController->renderFile()
+#7 /var/www/subdee/protected/controllers/SiteController.php(5): SiteController->render()
+#8 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#9 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#10 /var/yii/framework/web/CController.php(287): SiteController->runAction()
+#11 /var/yii/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#12 /var/yii/framework/web/CWebApplication.php(283): SiteController->run()
+#13 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#14 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/subdee/index.php(13): CWebApplication->run()
+REQUEST_URI=/subdee/
+in /var/www/subdee/protected/views/layouts/main.php (22)
+in /var/www/subdee/protected/controllers/SiteController.php (5)
+in /var/www/subdee/index.php (13)
+2013/05/24 14:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /var/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/yii/framework/web/CController.php(271): CController->missingAction('')
+#1 /var/yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/subdee/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/subdee/
+---
+2013/05/24 15:02:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cv".' in /var/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/yii/framework/web/CController.php(271): CController->missingAction('cv')
+#1 /var/yii/framework/web/CWebApplication.php(283): CController->run('cv')
+#2 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/cv')
+#3 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/subdee/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/subdee/site/cv
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 16:56:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_cv".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(13): CController->renderPartial('_cv', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionCv()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('cv')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/cv')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/cv
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-bitbucket.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-bitbucket.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-github.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-github.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-linkedin.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-linkedin.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-googleplus.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-googleplus.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-mail.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-mail.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-twitter.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-twitter.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-goodreads.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-goodreads.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-soundcloud.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-soundcloud.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-github.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-github.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-bitbucket.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-bitbucket.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-goodreads.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-goodreads.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-googleplus.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-googleplus.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-linkedin.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-linkedin.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-soundcloud.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-soundcloud.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-mail.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-mail.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/icons/fc-webicon-twitter.svg".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('images/icons/fc...')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/images/icons/fc-webicon-twitter.svg
+HTTP_REFERER=http://localhost/subdee/css/fc-webicons.css
+---
+2013/05/24 18:34:11 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_work".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(17): CController->renderPartial('_work', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionWork()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('work')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/work')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/work
+HTTP_REFERER=http://192.168.2.7/subdee/
+---
+2013/05/24 18:39:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_work".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(17): CController->renderPartial('_work', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionWork()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('work')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/work')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/work
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 18:39:54 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_contact".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(21): CController->renderPartial('_contact', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 18:49:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_work".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(17): CController->renderPartial('_work', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionWork()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('work')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/work')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/work
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 19:29:21 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "clientScript".' in /var/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(17): CComponent->__call('clientScript', Array)
+#1 /var/www/subdee/protected/controllers/SiteController.php(17): CWebApplication->clientScript()
+#2 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionWork()
+#3 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/yii/framework/web/CWebApplication.php(283): CController->run('work')
+#7 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/work')
+#8 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/subdee/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/subdee/site/work
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 20:26:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_contact".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(21): CController->renderPartial('_contact', Array, false, true)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 20:29:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request " 31682009216".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController(' 31682009216')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/+31682009216
+HTTP_REFERER=http://localhost/subdee/
+---
+2013/05/24 20:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[object Object]".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('[object Object]')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/%5Bobject%20Object%5D
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[object Object]".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('[object Object]')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/%5Bobject%20Object%5D
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[object Object]".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('[object Object]')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/%5Bobject%20Object%5D
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[object Object]".' in /var/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('[object Object]')
+#1 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/subdee/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/subdee/%5Bobject%20Object%5D
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:54:49 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formSuccess".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(26): CController->renderPartial('_formSuccess')
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:55:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formError".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(25): CController->renderPartial('_formError', Array)
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:57:04 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formSuccess".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(27): CController->renderPartial('_formSuccess')
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:57:21 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formSuccess".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(27): CController->renderPartial('_formSuccess')
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:57:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formSuccess".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(27): CController->renderPartial('_formSuccess')
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---
+2013/05/24 20:57:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_formSuccess".' in /var/yii/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/subdee/protected/controllers/SiteController.php(27): CController->renderPartial('_formSuccess')
+#1 /var/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/yii/framework/web/CWebApplication.php(283): CController->run('contact')
+#6 /var/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#7 /var/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/subdee/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/subdee/site/contact
+HTTP_REFERER=http://localhost/subdee/?name=&imail=&message=&email=
+---

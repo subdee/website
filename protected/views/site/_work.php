@@ -1,0 +1,66 @@
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4><a href="http://www.wrapthegift.com/">Wrap the Gift</a></h4>
+        <hr>
+        <p>A digital gift wrapping service.</p>
+        <ul>
+            <li>Development of REST service</li>
+            <li>Web design</li>
+            <li>Full backend and user dashboard</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/wtg1.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4>MSLeague</h4>
+        <hr>
+        <p>An online fantasy football game with social and trading features.</p>
+        <ul>
+            <li>Development of core engine</li>
+            <li>Development of front end components</li>
+            <li>Database setup</li>
+            <li>Workflow organisation</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <div class="video-wrapper">
+            <iframe width="480" height="320" src="http://www.youtube.com/embed/P9MtPqrjoog?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4><a href="http://www.dealspot.gr/">Dealspot</a></h4>
+        <hr>
+        <p>A Greek deal site like Groupon.</p>
+        <ul>
+            <li>Development of administration</li>
+            <li>Web design</li>
+            <li>Development of frontend components</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/dealspot1.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4><a href="http://www.balomenos.gr/">Balomenos Doors</a></h4>
+        <hr>
+        <p>A security door retailer in Athens.</p>
+        <ul>
+            <li>Development of administration</li>
+            <li>Web design</li>
+            <li>Development of frontend components</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/balomenos2.png" />
+    </div>
+</div>

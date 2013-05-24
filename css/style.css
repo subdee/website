@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+@media screen and (max-width: 1024px){
+    .main-content.minimised img {
+        display: none;
+    }
+    .showcase .description {
+        width: 100%;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        padding: 10px;
+        box-shadow: 3px 3px 5px #222;
+    }
+    .showcase .description h4 {
+        text-align: center;
+    }
+    .showcase .gallery {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+body {
+    font-family: 'Ubuntu Mono', Verdana, sans-serif;
+    font-size: 16px;
+    color: #ddd;
+    background: url(../images/bg.png) black no-repeat;
+}
+h1, h2, h3, h4, h5, p {
+    font-family: 'Ubuntu Mono', Verdana, sans-serif;
+}
+hr {
+    border-color: #999;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    margin: 0 10px;
+}
+.footer a:hover {
+    margin: -2px 10px 0;
+}
+.footer span {
+    display: block;
+    font-size: 0.7em;
+    padding-top: 5px;
+}
+.main-content,
+.dynamic-content {
+    text-align: center;
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 5px 5px 5px #000;
+}
+.main-content.minimised {
+    text-align: left;
+    height: 50px;
+    padding: 10px;
+    display: none;
+}
+.main-content.minimised img {
+    max-height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.dynamic-content {
+    text-align: left;
+    display: none;
+    overflow-y: auto;
+}
+.dynamic-content ul li {
+    margin-left: 20px;
+}
+.menu {
+    font-weight: bold;
+    padding: 10px;
+}
+.menu ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+.menu ul li {
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+}
+.menu ul li span {
+    cursor: pointer;
+    transition: ease 500ms all;
+}
+.menu ul li span:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+.showcase {
+    font-size: 0.9em;
+}
+.showcase .description {
+    float: left;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    box-shadow: 3px 3px 5px #222;
+}
+.showcase .description h4 {
+    text-align: center;
+}
+.showcase .gallery {
+    float:left;
+}
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#krimeno {
+    display: none;
+}
