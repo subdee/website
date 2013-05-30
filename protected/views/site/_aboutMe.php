@@ -3,6 +3,7 @@
 <p>I have been working on web applications and websites in general since 2005 and have not regret it yet.
     While sometimes life can be difficult to handle as a web programmer (or developer, or whatever you want to call it
     these days), I take pride at my work and always jump in joy when things <strong>WORK</strong>.</p>
+<p>I am a supporter of Open Source software and Linux OSs. I really can't work on proprietary platforms, it limits my imagination!</p>
 <p>Of course, I value my personal time a lot and use that time to enjoy things that don't involve me staring into the computer
     screen for hours.</p>
 <p>So what do I do when I don't develop awesome gut-busting applications?</p>
