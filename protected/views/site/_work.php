@@ -51,6 +51,22 @@
 <hr>
 <div class="row showcase">
     <div class="small-3 description">
+        <h4><a href="http://www.buonogusto.gr/">Buono Gusto Italian Restaurant</a></h4>
+        <hr>
+        <p>An Italian pizzeria and restaurant in Athens.</p>
+        <ul>
+            <li>Web design</li>
+            <li>Development of frontend components</li>
+            <li>Social networks</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/buonogusto.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
         <h4><a href="http://www.balomenos.gr/">Balomenos Doors</a></h4>
         <hr>
         <p>A security door retailer in Athens.</p>
