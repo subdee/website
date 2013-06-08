@@ -17,15 +17,32 @@
 
         <?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/vendor/custom.modernizr.js'); ?>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-41574484-1', 'subdee.org');
+            ga('send', 'pageview');
+
+        </script>
     </head>
     <body>
         <div class="row">
             <div class="small-12 menu">
                 <ul>
-                    <li><span id="aboutMe">About</span></li>
-                    <li><span id="cv">CV</span></li>
-                    <li><span id="work">Work</span></li>
-                    <li><span id="contact">Contact</span></li>
+                    <li><span id="aboutMe"><a href="#aboutme">About</a></span></li>
+                    <li><span id="cv"><a href="#cv">CV</a></span></li>
+                    <li><span id="work"><a href="#work">Work</a></span></li>
+                    <li><span id="contact"><a href="#contact">Contact</a></span></li>
                     <!--<li><span id="contact">Hmm</span></li>-->
                 </ul>
             </div>

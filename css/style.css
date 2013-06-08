@@ -101,6 +101,9 @@ hr {
     color: #fff;
     text-shadow: 0 0 5px #fff;
 }
+.menu ul li span a {
+    color: #fff;
+}
 .showcase {
     font-size: 0.9em;
 }
