@@ -35,6 +35,21 @@
 <hr>
 <div class="row showcase">
     <div class="small-3 description">
+        <h4><a href="http://www.athenesolijf.nl/">Athene's Olijf</a></h4>
+        <hr>
+        <p>A Greek restaurant in Delft.</p>
+        <ul>
+            <li>Web design and development</li>
+            <li>Use of social networks</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/athenesolijf1.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
         <h4><a href="http://www.dealspot.gr/">Dealspot</a></h4>
         <hr>
         <p>A Greek deal site like Groupon.</p>
