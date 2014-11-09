@@ -1,5 +1,10 @@
 <h4>Who has enjoyed my work?</h4>
-<span class="label radius">Nov 2012 to today</span>
+<span class="label radius">Currently</span>
+<p>
+    I now work as a freelancer and offer my services as an external consultant.
+</p>
+<p>In the past however:</p>
+<span class="label radius">Nov 2012 to Apr 2014</span>
 <p><a href="http://www.wrapthegift.com">Wrap the Gift</a> is a service that can wrap a digital item and mail it to someone as
     a gift. I took over this project nearly at its beginning and have developed every aspect of it.</p>
 <ul>In general I enjoy
@@ -16,7 +21,7 @@
     senior web developer.</p>
 <ul>I was mainly
     <li>building web services to serve data to mobile applications</li>
-    <li>trying my best to make websites work on most mobile devices (lol)</li>
+    <li>trying my best to make websites work on most mobile devices (heh)</li>
     <li>setting up environments for my team to work with ease and standards</li>
 </ul>
 <span class="label radius">Dec 2010 to Jan 2012</span>
@@ -38,3 +43,10 @@
     <li>optimise applications for usage volumes of thousands of transactions per second</li>
 </ul>
 <p>There's more of course, but I'm not going to write it. I'd be surprised if you made it this far!</p>
+<script>
+    $(function () {
+        $("#work-link").click(function () {
+            $("span#work a").trigger("click");
+        });
+    })
+</script>
