@@ -13,8 +13,8 @@
         <a href='http://www.goodreads.com/user/show/7123024-subdee'>Goodreads profile</a>
     </li>
     <li>
-        Sports. Well, more like running and some situps. I find it difficult to find people to play sports with, and
-        throwing a basketball around by yourself is not really fun.
+        Sports. I'll join the gym if I have company and feel like it but I love playing football with my team in the
+        <a href="http://www.footyamsterdam.nl/">Footy competitions</a>
     </li>
     <li>
         Write music. Yes I was doing that long before I became a programming slave, but I still enjoy composing awesome

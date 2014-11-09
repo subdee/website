@@ -43,7 +43,6 @@
                     <li><span id="cv"><a href="#cv">CV</a></span></li>
                     <li><span id="work"><a href="#work">Work</a></span></li>
                     <li><span id="contact"><a href="#contact">Contact</a></span></li>
-                    <!--<li><span id="contact">Hmm</span></li>-->
                 </ul>
             </div>
         </div>
@@ -73,7 +72,7 @@
             <a class="fc-webicon small linkedin" href="http://www.linkedin.com/profile/view?id=18642498">LinkedIn</a>
             <a class="fc-webicon small soundcloud" href="http://soundcloud.com/subdee">SoundCloud</a>
             <a class="fc-webicon small twitter" href="https://twitter.com/_subdee">Twitter</a>
-            <span>&copy;2013 Subdee Studio</span>
+            <span>&copy;2013-2014 Subdee Studio</span>
         </div>
     </body>
 </html>

@@ -1,5 +1,51 @@
 <div class="row showcase">
     <div class="small-3 description">
+        <h4><a href="http://www.garagekostas.nl/">Garage Kostas</a></h4>
+        <hr>
+        <p>Car repair and services.</p>
+        <ul>
+            <li>Web development and design.</li>
+            <li>SEO & social promotion</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/garagekostas1.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4><a href="http://www.irdeto.com/">Irdeto</a></h4>
+        <hr>
+        <p>Backend and frontend of internal project.</p>
+        <ul>
+            <li>Development on both components.</li>
+            <li>Testing with python</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/irdeto1.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
+        <h4><a href="http://www.firm24.com/">Firm24</a></h4>
+        <hr>
+        <p>Online financial and notary services.</p>
+        <ul>
+            <li>Development of client dashboard and admin.</li>
+            <li>Web design</li>
+            <li>Server administration</li>
+        </ul>
+    </div>
+    <div class="small-offset-1 small-8 gallery">
+        <img src="images/showcase/firm241.png" />
+    </div>
+</div>
+<hr>
+<div class="row showcase">
+    <div class="small-3 description">
         <h4><a href="http://www.wrapthegift.com/">Wrap the Gift</a></h4>
         <hr>
         <p>A digital gift wrapping service.</p>

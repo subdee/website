@@ -17,7 +17,7 @@
                     <label for="right-label" class="right inline">Your name?</label>
                 </div>
                 <div class="small-9 columns">
-                    <input type="text" id="right-label" name="name" placeholder="I am really interested">
+                    <input type="text" id="right-label" name="name">
                 </div>
             </div>
             <div class="row">
@@ -25,7 +25,7 @@
                     <label for="right-label" class="right inline">Your email address?</label>
                 </div>
                 <div class="small-9 columns">
-                    <input type="text" id="right-label" name="imail" placeholder="in what you have to tell me">
+                    <input type="text" id="right-label" name="imail">
                 </div>
             </div>
             <div class="row">
@@ -33,7 +33,7 @@
                     <label for="right-label" class="right inline">So tell me about it</label>
                 </div>
                 <div class="small-9 columns">
-                    <textarea id="right-label" name="message" placeholder="so go ahead and tell me!"></textarea>
+                    <textarea id="right-label" name="message"></textarea>
                 </div>
             </div>
             <div class="row">
