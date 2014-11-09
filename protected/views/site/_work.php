@@ -128,7 +128,7 @@
 <hr>
 <div class="row showcase">
     <div class="small-3 description">
-        <h4><a href="http://www.balomenos.gr/">Balomenos Doors</a></h4>
+        <h4><a href="http://www.balomenosdoors.gr/">Balomenos Doors</a></h4>
         <hr>
         <p>A security door retailer in Athens.</p>
         <ul>
